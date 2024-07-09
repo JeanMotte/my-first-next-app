@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <div className="">
+        <div className="bg-neutral-400">
           <NavbarPerso />
         </div>
         <Main />

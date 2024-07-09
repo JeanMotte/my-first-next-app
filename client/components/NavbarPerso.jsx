@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Navbar,
   NavbarBrand,
@@ -10,6 +10,7 @@ import {
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import { Button } from "@nextui-org/button";
+import ButtonPerso from "../components/ButtonPerso";
 
 function NavbarPerso() {
   return (
@@ -30,9 +31,7 @@ function NavbarPerso() {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link href={"/addBook"} color="foreground">
-              Add a new book!
-            </Link>
+            <ButtonPerso />
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
@@ -47,7 +46,7 @@ function NavbarPerso() {
         </NavbarContent>
       </Navbar>
     </>
-  )
+  );
 }
 
-export default NavbarPerso
+export default NavbarPerso;
