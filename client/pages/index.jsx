@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import BookPreview from '@/components/BookPreview';
 
 function Index() {
   const [message, setMessage] = useState("Loading");
@@ -19,12 +20,14 @@ function Index() {
 
   return (
     <>
-      <div>{message}</div>
+    <BookPreview />
+
+      {/* <div>{message}</div>
       {people.map((name, index) => (
         <div key={index}>
           {name}
-        </div>
-      ))}
+      </div>
+      ))} */}
     </>
   );
 }
