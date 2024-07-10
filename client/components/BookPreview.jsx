@@ -8,14 +8,14 @@ import EditBtn from './EditBtn';
 function BookPreview() {
   return (
     <>
-      <div className="container mx-auto mt-4 p-4 border border-slate-400 rounded-md flex items-center w-1/2">
+      <div className="container mx-auto mt-4 p-4 border border-slate-400 rounded-md flex w-1/2">
         <div>
-          <h3>Book Title</h3>
+          <h3 className="font-bold text-xl">Book Title</h3>
           <div>Author's name</div>
         </div>
-        <div className="ml-auto flex space-x-2">
+        <div className="ml-auto flex items-start">
           <Link href={'/removeBook/123'}>
-            <RemoveBtn />
+            <RemoveBtn/>
           </Link>
           <Link href={'/editBook/123'}>
             <EditBtn />

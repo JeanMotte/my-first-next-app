@@ -21,6 +21,9 @@ function Index() {
   return (
     <>
     <BookPreview />
+    <BookPreview />
+    <BookPreview />
+    <BookPreview />
 
       {/* <div>{message}</div>
       {people.map((name, index) => (

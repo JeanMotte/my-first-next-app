@@ -9,7 +9,9 @@ export default function Document() {
         <div className="bg-neutral-400">
           <NavbarPerso />
         </div>
-        <Main />
+        <div className="mt-8">
+          <Main />
+        </div>
         <NextScript />
       </body>
     </Html>
